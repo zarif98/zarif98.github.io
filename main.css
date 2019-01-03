@@ -12,7 +12,7 @@ html {
 }
 body {
     width: 100%;
-    background-image: url(images/BG_01.png);
+    background-color: pink;
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,11 +26,11 @@ body {
     display: table;
 }
 h1 {
-    color:white;
+    color:antiquewhite;
     font-size: 48px;
 }
 p {
-    color: white;
+    color: antiquewhite;
     font-size: : 16px;
 }
 ul {
@@ -38,7 +38,7 @@ ul {
     margin-top: 30px;
 }
 li {
-    color: white;
+    color: antiquewhite;
     font-size: 16px;
     margin-bottom: 20px;
 }
@@ -48,7 +48,7 @@ nav {
     line-height: 100px;
 }
 nav a {
-    color: white;
+    color: antiquewhite;
     text-decoration: none;
 }
 nav a img {
@@ -107,7 +107,7 @@ header a {
 }
 /*-----footer-----*/
 footer p {
-    color: #404348;
+    color: lightpink;
 }
 /*-----Responsive-----*/
 
