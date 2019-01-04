@@ -28,10 +28,13 @@ body {
 h1 {
     color:antiquewhite;
     font-size: 48px;
+    text-shadow: 2px 2px #FF1493;
+
 }
 p {
     color: antiquewhite;
     font-size: : 16px;
+    
 }
 ul {
     list-style: none;
