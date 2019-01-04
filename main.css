@@ -26,23 +26,22 @@ body {
     display: table;
 }
 h1 {
-    color:antiquewhite;
+    color:rebeccapurple;
     font-size: 48px;
     text-shadow: 2px 2px #FF1493;
 
 }
 p {
-    color: antiquewhite;
-    font-size: : 16px;
-    
+    font-size: : 50px;
+    color: rebeccapurple;  
 }
 ul {
     list-style: none;
     margin-top: 30px;
 }
 li {
-    color: antiquewhite;
-    font-size: 16px;
+    color: rebeccapurple;
+    font-size: 30px;
     margin-bottom: 20px;
 }
 /*-----nav-----*/
@@ -51,7 +50,7 @@ nav {
     line-height: 100px;
 }
 nav a {
-    color: antiquewhite;
+    color: rebeccapurple;
     text-decoration: none;
 }
 nav a img {
