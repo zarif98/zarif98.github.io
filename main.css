@@ -6,7 +6,7 @@
     outline: 0;
     font-size: 100%;
     vertical-align: baseline;
-    font-weight: 400;
+    font-weight: bold;
 }
 html {
     font-family: 'Julius Sans One';
@@ -32,10 +32,9 @@ h1 {
     text-shadow: 2px 2px #FF1493;
 }
 p {
-    font-family: 'Nunito', sans-serif;
     font-size: : 150px;
     color: rebeccapurple;
-    font-weight: 400;
+    font-weight: bold;
 }
 ul {
     list-style: none;
@@ -59,7 +58,10 @@ nav a img {
     vertical-align: middle;
 }
 nav a:nth-child(2) {
+    position: fixed;
     float: right;
+    right: 5%;
+    top: 50px;
 }
 /*-----header-----*/
 header {
