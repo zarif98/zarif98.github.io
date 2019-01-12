@@ -97,13 +97,14 @@ header a {
     text-align: left;
 }
  .skills-box{
-        font-size: 50;
+        font-size: 17px;
+        color: rebeccapurple;
         background-color: #F98B88;
         margin: 30px 0;
         text-align: center;
         width: inherit;
         height: 120px;
-        line-height: 120px;
+        line-height: 60px;
         -webkit-box-shadow: 13px 13px 27px 24px rgba(237,106,104,0.66);
 -moz-box-shadow: 13px 13px 27px 24px rgba(237,106,104,0.66);
 box-shadow: 13px 13px 27px 24px rgba(237,106,104,0.66);
@@ -170,3 +171,12 @@ footer p {
 @media screen and (min-width:1120px) {
     h1 { font-size:150px; }
 }
+@media screen and (min-width:768px) {
+    .skills-box { font-size:25px; }
+
+@media screen and (min-width:991px) {
+    .skills-box { font-size:30px; }
+}
+    
+@media screen and (min-width:1120px) {
+    .skills-box { font-size:50px; }
