@@ -172,7 +172,7 @@ footer p {
     h1 { font-size:150px; }
 }
 @media screen and (min-width:768px) {
-    .skills-box { font-size:25px; }
+    .skills-box { font-size:20px; }
 
 @media screen and (min-width:991px) {
     .skills-box { font-size:30px; }
