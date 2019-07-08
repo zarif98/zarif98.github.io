@@ -13,7 +13,7 @@ html {
 }
 body {
     width: 100%;
-    background-color: #F98B88;
+    background-color: #FBAF08;
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,6 +21,15 @@ body {
 .wrapper{
     width: 90%;
     margin: 0 auto;    
+}
+.parallax{
+    height: 90vh;
+    width: 100%;
+    background-image: url''(images/IMG_5227.png);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
 }
 .clearfix::after {
     content:"";
@@ -67,6 +76,7 @@ nav a:nth-child(2) {
 header {
     margin: 100px 0 200px 0;
     text-align: center;
+    
 }
 header p {
     width: 45%;
@@ -99,15 +109,15 @@ header a {
  .skills-box{
         font-size: 17px;
         color: rebeccapurple;
-        background-color: #F98B88;
+        background-color: #FEA49F;
         margin: 30px 0;
         text-align: center;
         width: inherit;
         height: 120px;
         line-height: 60px;
-        -webkit-box-shadow: 13px 13px 27px 24px rgba(237,106,104,0.66);
--moz-box-shadow: 13px 13px 27px 24px rgba(237,106,104,0.66);
-box-shadow: 13px 13px 27px 24px rgba(237,106,104,0.66);
+        -webkit-box-shadow: 13px 12px 2px 1px rgba(237,106,104,0.66);
+-moz-box-shadow: 13px 12px 2px 1px rgba(237,106,104,0.66);
+box-shadow: 13px 12px 2px 1px rgba(237,106,104,0.66);
 }
 .whatIDo h1 {
     color: #13A3FD;
